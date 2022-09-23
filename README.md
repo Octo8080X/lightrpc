@@ -35,7 +35,7 @@ serve(async (request) => {
 ```
 
 ```sh
-> deno run --allow-net:0.0.0.0:8000 server_main.ts
+> deno run --allow-net=0.0.0.0:8000 server_main.ts
 Listening on http://localhost:8000/
 ```
 
@@ -64,7 +64,7 @@ console.log(
 ```
 
 ```sh
-> deno run --allow-net:localhost:8000 client_main.ts
+> deno run --allow-net=localhost:8000 client_main.ts
 579
 HelloWorld
 ```
