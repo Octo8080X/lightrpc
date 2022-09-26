@@ -13,14 +13,6 @@ const defineFuncs = {
   },
 } as const;
 
-//console.log(
-//  await clientFunc<typeof defineFuncs>("http://localhost:8000").join(
-//    "Hello",
-//    "World",
-//    "***"
-//  ),
-//);
-
 Deno.test("#1 clientFunc Test", async () => {
   mf.install();
   mf.mock("POST@/", (_req, _params) => {
