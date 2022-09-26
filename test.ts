@@ -42,7 +42,7 @@ Deno.test("#2 serverFunc Test", async () => {
   const res = await superdeno(server)
     .post("/")
     .set("Accept", "application/json")
-    .send({ methodName: "join", params: ["Hello", "World", " "] }) // <= json を送る
+    .send({ methodName: "join", params: ["Hello", "World", " "] })
     .expect("Content-Type", "application/json")
     .expect(200);
 
