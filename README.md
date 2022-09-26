@@ -1,6 +1,6 @@
 # LightRPC
 
-Light, simple, easy type-safe RPC for Typescript.
+Light, simple, easy type-safe RPC for TypeScript.
 
 lightrpc is Inspired by [trpc](https://github.com/trpc/trpc),
 [gentle_rpc](https://github.com/timonson/gentle_rpc).
